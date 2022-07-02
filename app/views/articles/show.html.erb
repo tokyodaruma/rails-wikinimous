@@ -1,0 +1,5 @@
+<h2><%= @article.title %></h2>
+<%= link_to "Did you seriously make a typo?", edit_article_path %>
+<p><%= @article.content %></p>
+<%= link_to "Do you REALLY want to go back?", articles_path %>
+<%= link_to 'We get it. Not so confident after all.', article_path(@article), method: :delete, data: { confirm: "No reason to wait around any longer. Delete this now." } %>
