@@ -1,8 +1,5 @@
-<h1>Wikinimous</h1>
-<p>What? Think you're a big shot now? Wanting to write your own articles? Go for it.</p>
-<%= link_to "Try...IF YOU CAN", new_article_path %>
-<ul>
+<ul class="list-group">
 <% @articles.each do |article| %>
-  <li><%= link_to article.title, article_path(article) %></li>
+  <li class="list-group-item"><%= link_to article.title, article_path(article) %></li>
 <% end %>
 </ul>

@@ -1,0 +1,36 @@
+@import "bootstrap/scss/bootstrap";
+
+body {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color:lightcoral
+}
+
+.navbar-light .navbar-brand {
+  color: rgba(128, 128, 128, 0.809)
+}
+
+.card-header .navbar-brand {
+  color: rgba(128, 128, 128, 0.809);
+  font-size: small;
+}
+
+.navbar-light .navbar-brand:hover {
+  color: rgb(0, 0, 0)
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  margin: 16px;
+  font-size: 32px;
+}
+
+p {
+  text-align: left;
+}
